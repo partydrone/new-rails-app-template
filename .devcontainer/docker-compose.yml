@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ../..:/workspaces:cached
-      - ruby-gems:/usr/local/bundle:cached
+      - bundle:/usr/local/bundle:cached
     network_mode: service:db
     command: sleep infinity
 
@@ -21,4 +21,4 @@ services:
 
 volumes:
   postgres-data: null
-  ruby-gems: null
+  bundle: null
