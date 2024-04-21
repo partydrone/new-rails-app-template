@@ -34,7 +34,8 @@
 				"Shopify.ruby-extensions-pack",
 				"connorshea.vscode-ruby-test-adapter",
 				"ms-azuretools.vscode-docker",
-				"esbenp.prettier-vscode"
+				"esbenp.prettier-vscode",
+				"testdouble.vscode-standard-ruby"
 			],
 			"settings": {
 				"workbench.colorTheme": "Spinel",
