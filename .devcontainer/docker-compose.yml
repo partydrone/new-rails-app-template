@@ -17,7 +17,7 @@ services:
     environment:
       POSTGRES_PASSWORD: postgres
       POSTGRES_USER: postgres
-      POSTGRES_DB: postgres
+      POSTGRES_DB: rails_app_development
 
 volumes:
   postgres-data: null
