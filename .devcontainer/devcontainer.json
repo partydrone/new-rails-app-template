@@ -35,7 +35,8 @@
 				"connorshea.vscode-ruby-test-adapter",
 				"ms-azuretools.vscode-docker",
 				"esbenp.prettier-vscode",
-				"testdouble.vscode-standard-ruby"
+				"testdouble.vscode-standard-ruby",
+				"bradlc.vscode-tailwindcss"
 			],
 			"settings": {
 				"workbench.colorTheme": "Spinel",
