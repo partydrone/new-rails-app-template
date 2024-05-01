@@ -27,13 +27,15 @@
   "customizations": {
     "vscode": {
       "extensions": [
-				"Shopify.ruby-extensions-pack",
-				"connorshea.vscode-ruby-test-adapter",
-				"ms-azuretools.vscode-docker",
-				"esbenp.prettier-vscode",
-				"testdouble.vscode-standard-ruby",
-				"bradlc.vscode-tailwindcss"
-			],
+        "bradlc.vscode-tailwindcss",
+        "connorshea.vscode-ruby-test-adapter",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-docker",
+        "Shopify.ruby-extensions-pack",
+        "testdouble.vscode-standard-ruby",
+        "vortizhe.simple-ruby-erb"
+      ],
 			"settings": {
 				"workbench.colorTheme": "Spinel"
       }
