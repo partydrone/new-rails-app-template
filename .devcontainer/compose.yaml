@@ -6,6 +6,7 @@ services:
 
     volumes:
     - ../..:/workspaces:cached
+    - bundle:/usr/local/bundle
 
     # Overrides default command so things don't shut down after the process ends.
     command: sleep infinity
@@ -52,5 +53,6 @@ services:
 
 
 volumes:
-  redis-data:
+  bundle:
   postgres-data:
+  redis-data:
