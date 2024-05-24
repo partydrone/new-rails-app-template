@@ -65,6 +65,7 @@ end
 group :development do
   gem "guard"
   gem "guard-minitest"
+  gem "lookbook", "~> 2.3"
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
